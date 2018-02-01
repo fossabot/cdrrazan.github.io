@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ cdrrazan }</title>
+		<description>AIO blog by cdrrazan. Mainly tech, linux and open source for helping students and professionals.</description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>10 Things That Would Happen If The Internet Collapsed</title>
+				
+				
+					<description>&lt;p&gt;&lt;img src=&quot;https://2.bp.blogspot.com/-vs5bHydnD04/WVpTngam2AI/AAAAAAAABXM/GRydaf62ftACzerIBMuCQWImmRMCXh6igCLcBGAs/s640/Life2BWithout2BInternet-678x381.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 26 Jan 2018 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/tech/18/01/internet-collapse/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/tech/18/01/internet-collapse/</guid>
+			</item>
+		
+			<item>
+				<title>Programming language to Become A Hacker!</title>
+				
+				
+					<description>&lt;p&gt;&lt;br /&gt;
+Every hacking beginner can have plenty of doubts like: &lt;code class=&quot;highlighter-rouge&quot;&gt;“Which programming language should I learn for Hacking ?”&lt;/code&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 17 Jan 2018 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/programming/18/01/programming-language-for-hackers/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/programming/18/01/programming-language-for-hackers/</guid>
+			</item>
+		
+			<item>
+				<title>How to start blogging in 2018!</title>
+				
+				
+					<description>&lt;p&gt;Blogging has been the new way to make you feel that you can be passionate about. A blog and nice content means someone is well really nice with flow of information about the field. So, you also want to start blogging and share stuff with the world and know the benefit? Then you have come to the right place.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 08 Jan 2018 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/blog/18/01/start-blogging-in-2018/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/blog/18/01/start-blogging-in-2018/</guid>
+			</item>
+		
+			<item>
+				<title>How To Start Career in Digital Marketing?</title>
+				
+				
+					<description>&lt;p&gt;Digital marketing is very trendy and demanding field nowadays. It attracts most of the candidates to make their career in this. Many companies open their startup in digital marketing because of its huge demand and huge scope in the market. Almost every organization needs to hire the candidate for providing the online marketing services to their clients. If you are a beginner and think to make your career in digital marketing field then it is the best career option for you. Many of the candidates are confused that how to start their career in SEO, what course they need to do, and which companies provide the job opportunities in this? I want to say only one thing that if you are passionate to learn about internet marketing and want to do make your career bright than it is the right time to start.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 28 Dec 2017 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/blog/17/12/career-in-digital-marketing/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/blog/17/12/career-in-digital-marketing/</guid>
+			</item>
+		
+			<item>
+				<title>How to show HTTPS for your blog or website?</title>
+				
+				
+					<description>&lt;p&gt;SSL is a “cryptographic protocol” which protects and secures data being transferred through a computer network; this transfer of information occurs between a website or online application and a visitor. So, if you are running any blogging to professional site, enabling SSL might make generate more traffic than with no SSL.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 25 Dec 2017 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/tech/17/12/https-for-blog-websites/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/tech/17/12/https-for-blog-websites/</guid>
+			</item>
+		
+			<item>
+				<title>Integrate Facebook/Disqus/G+ Comments in Jekyll!</title>
+				
+				
+					<description>&lt;p&gt;Here’s my current commenting platform in the blog where user can choose where to use the media and post their comment.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 09 Dec 2017 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/blog/17/12/integrate-fb-google-disqus-comment-in-jekyll/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/blog/17/12/integrate-fb-google-disqus-comment-in-jekyll/</guid>
+			</item>
+		
+			<item>
+				<title>Auto deploy your static Wordpress site in github!</title>
+				
+				
+					<description>&lt;p&gt;Wordpress sites are really great for customizing and making our site beautifull. No matter what other platform rise, wordpress always seems to take advantage of itself being easier to both customizing and hosting. However if our website were static, then we don’t have to even spend dime on hosting because as a developer we have one great solution here &lt;strong&gt;GITHUB&lt;/strong&gt;.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 09 Dec 2017 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/tech/17/12/auto-deploy-static-wordpress-site/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/tech/17/12/auto-deploy-static-wordpress-site/</guid>
+			</item>
+		
+			<item>
+				<title>Build your personal brand as a new developer!</title>
+				
+				
+					<description>&lt;p&gt;Since I started publishing on Medium, I’ve noticed that my blog and my social media accounts have seen an increase in traffic. Only a very slight increase, but it’s still very motivating and encouraging.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 15 Aug 2017 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/blog/17/08/build-your-personal-brand-as-a-new-developer/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/blog/17/08/build-your-personal-brand-as-a-new-developer/</guid>
+			</item>
+		
+			<item>
+				<title>Setup custom email for your brand for free!</title>
+				
+				
+					<description>&lt;p&gt;Custom domain are easy now a days because domain names are so cheap, you can have a fancy name and fancy extension for example, yourbrandis.cool. But what about the fancy having something like mail@yourbrandis.cool? Sounds pretty cool right? Yes, this seems exactly. You can also have such email address which will look pretty good in the CV, resume or other place you use.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 03 Aug 2017 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/blog/17/08/setup-custom-email-for-your-brand-for-free/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/blog/17/08/setup-custom-email-for-your-brand-for-free/</guid>
+			</item>
+		
+			<item>
+				<title>Why Git and Github is must for student?</title>
+				
+				
+					<description>&lt;p&gt;This blog is focused for the students about introduction to git and why use github who might want to be developers to the some point either it might be web, or mobile or any other intersection it might get.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 14 May 2017 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/tech/17/05/git-and-github-for-students/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/tech/17/05/git-and-github-for-students/</guid>
+			</item>
+		
+	</channel>
+</rss>

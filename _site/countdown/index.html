@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown-8th Sem Exam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Share+Tech+Mono'>
+    <link rel="stylesheet" href="css/countdown.css">
+</head>
+
+<body>
+    <br><br>
+   <center> <a href="https://cdrrazan.com"><img style="border: 0;" src="/img/logo-cdrrazan.png" title="cdrrazan's blog" /></a></center>
+    <div id="clock">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="upcomingexam">{{ subject }}</p>
+        <p class="nextexam">{{ next }}</p>
+        <p class="link"><span v-html="notelink"></span> • <a href="https://csitauthority.github.io/8thSem/en/ebooks-and-classnotes/ebooks/">EBOOKS</a> • <a href="https://csitauthority.github.io/8thSem/">MORE</a> </p>
+        <p class="setting">
+            <input type="checkbox" id="exactExamTime" value="true" v-model="checkedEET">Set counter to Exact Exam Time: 1200 (GMT +5:45)</input>
+        </p>
+        <p class="text">Countdown to 8th Sem Board Exams 2074</p>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
+    <script src="js/countdown.js"></script>
+</body>
+
+</html>

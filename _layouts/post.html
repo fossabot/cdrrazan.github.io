@@ -1,0 +1,118 @@
+
+<!-- Post Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+      <section id="post" class="container content-section text-center">
+      <a href="#"><img style="border: 0;" src="/img/logo-cdrrazan.png" title="cdrrazan's blog" /></a>
+      <hr>
+      <div class="row">
+
+        <div class="col-md-10 col-md-offset-1">
+          <!--<center><a href="//www.chitika.com/publishers/apply?refid=cdrrazan"><img src="//images.chitika.net/ref_banners/728x90_hidden_ad.png" /></a></center>-->
+          <br>
+
+          <h1><strong>{{ page.title }}</strong></h1>
+          <h4>
+            <strong>{{ page.date | date_to_long_string }}</strong>
+            <small>
+              . category:
+              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}">
+                {{ page.category }}
+              </a>.
+              <!--<a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>-->
+              <br />
+              {% for tag in page.tags %}
+                <!--<a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}/">-->
+                #{{ tag }}<!--</a>-->
+              {% endfor %}
+            </small>
+          </h4>
+          <div id="shareable" class="sharethis-inline-share-buttons"></div>
+            <br>
+            {% if page.img %}
+        <div class="page-cover-image">
+            <img class="page-image" height="50%" width="600px" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        </div>
+        <!-- End Page Cover Image -->
+        {% else %} {% endif %}
+          <section class="text-justify">
+            {{ page.content | markdownify }}
+          </section>
+          <br>
+          <h3> Reaction: </h3>
+            <center>
+                <div id="shareable" class="sharethis-inline-reaction-buttons"></div>
+            </center>
+          <center>
+                <h3>Share this: </h3>
+                <div id="shareable" class="sharethis-inline-share-buttons"></div>
+            </center>
+            <br>
+            <input type="hidden" name="IL_IN_TAG" value="1"/>
+             <hr/>
+                  {% if site.author_blurb %}
+          <div class="author row">
+            <img src="/img/logo-cdrrazan.png"/>
+            <img class="col-xs-4 col-sm-3 col-md-2 img-circle" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
+
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              {{ site.author_blurb }}
+          </p>
+          <p class="col-sm-3 col-md-0"><b> Welcome to CreativS playlist!
+          </b><br><br>
+          Enjoy great talks and ideas from great personalities around the world.
+          <br><br>
+          <i>Updated every Friday!</i>
+          </p>
+          {% include youtube.html %}
+          </div>
+          {% endif%}
+          <hr />
+            <div class="PageNavigation">
+                {% if page.previous.url %}
+                <a class="prev" href="{{page.previous.url}}"><h4>&laquo;
+                Prev: {{page.previous.title}}</h4></a> {% endif %} {% if page.next.url %}
+                <a class="next" href="{{page.next.url}}"><h4>Next: {{page.next.title}} &raquo;</h4></a> {% endif %}
+            </div>
+                <div class="related-posts">
+                    <h2><u>Related Posts</u></h2> {% for post in site.related_posts limit:4 %}
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                          <h5>
+                            {{ post.date | date: "%B %e, %Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                        </div>
+                    </div>
+                    {% endfor %}
+                   <!-- <br>
+                   <center><a href="//www.chitika.com/publishers/apply?refid=cdrrazan"><img src="//images.chitika.net/ref_banners/728x90_using_adsense.gif" /></a></center>-->
+                    <hr/>
+                    <h2><center>Your thoughts!?</center></h2> {% include comment.html %}
+                </div>
+                <hr>
+                <!--{% include subscription.html %}
+                <hr>-->
+                {% include mailchimp.html %}<br><hr>
+             <h3><u>From Internet</u></h3>
+            <div class="shareaholic-canvas" data-app="recommendations" data-app-id="27909656"></div>
+        </div>
+      </div>
+    </section>
+
+    {% include link.html %}
+
+    {% include quotes.html %}
+
+    {% include js.html %}
+
+  </body>
+</html>
+
+<!-- Post Layout End -->

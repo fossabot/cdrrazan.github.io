@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/blog/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    <url>
+      <loc>http://localhost:4000/blog/tech/18/01/internet-collapse/</loc>
+      
+        <lastmod>2018-01-26T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/programming/18/01/programming-language-for-hackers/</loc>
+      
+        <lastmod>2018-01-17T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/blog/18/01/start-blogging-in-2018/</loc>
+      
+        <lastmod>2018-01-08T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/blog/17/12/career-in-digital-marketing/</loc>
+      
+        <lastmod>2017-12-28T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/tech/17/12/https-for-blog-websites/</loc>
+      
+        <lastmod>2017-12-25T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/blog/17/12/integrate-fb-google-disqus-comment-in-jekyll/</loc>
+      
+        <lastmod>2017-12-09T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/tech/17/12/auto-deploy-static-wordpress-site/</loc>
+      
+        <lastmod>2017-12-09T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/blog/17/08/build-your-personal-brand-as-a-new-developer/</loc>
+      
+        <lastmod>2017-08-15T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/blog/17/08/setup-custom-email-for-your-brand-for-free/</loc>
+      
+        <lastmod>2017-08-03T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/tech/17/05/git-and-github-for-students/</loc>
+      
+        <lastmod>2017-05-14T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/tech/17/05/basic-git-tutorials-for-beginners/</loc>
+      
+        <lastmod>2017-05-14T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/blog/17/04/internet-to-maximize-the-productivity-for-student/</loc>
+      
+        <lastmod>2017-04-15T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/tech/17/04/list-your-github-repo-in-your-website-blog-using-javascript-jquery/</loc>
+      
+        <lastmod>2017-04-15T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/linux/17/04/choose-best-linux-distro-for-beginners/</loc>
+      
+        <lastmod>2017-04-10T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/linux/17/03/installing-ubuntu-in-10-years-old-pc/</loc>
+      
+        <lastmod>2017-03-15T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/programming/17/02/choose-the-best-programming-language/</loc>
+      
+        <lastmod>2017-02-18T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/programming/17/01/be-the-best-web-developer-among-the-rest/</loc>
+      
+        <lastmod>2017-01-18T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/programming/15/07/learn-ruby-for-beginners-the-right-way/</loc>
+      
+        <lastmod>2015-07-25T13:32:20+05:45</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+</urlset>

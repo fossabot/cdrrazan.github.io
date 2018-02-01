@@ -1,0 +1,273 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://cdrrazan.com"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl:
+
+# Google tracking id
+
+google-tracking-id: "UA-103662447"
+
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Rajan Bhattarai"
+title: "{ cdrrazan }"
+description: "AIO blog by cdrrazan. Mainly tech, linux and open source for helping students and professionals."
+keywords: "tech, linux, open-source, cdrrazan, jekyll"
+favicon: "/assets/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+
+background-img: "../img/intro-devops.png"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
+  - text:  "There is no spoon."
+  - text: "Follow the white rabbit."
+  - text: "Don't think you are, know you are."
+  - text: "There's a difference between knowing the path and walking the path."
+  - text: "Free your mind"
+  - text: "I can only show you the door. You're the one that has to walk through it."
+  - text: "The time has come to make a choice."
+  - text: "Choi: It just sounds to me like you need to unplug, man."
+  - text: "You've been living in a dream world, Neo."
+  - text: "What is real? How do you define real?"
+  - text: "Welcome to the real world."
+  - text: "Because you have been down there Neo, you know that road, you know exactly where it ends. And I know that's not where you want to be."
+  - text: "A déjà vu is usually a glitch in the Matrix. It happens when they change something."
+  - text: "Do you believe that my being stronger or faster has anything to do with my muscles in this place? Do you think that's air you're breathing now?"
+  - text: "Neo: I know kung fu. Morpheus: [eyeing him, hand on chin] Show me."
+  - text: "Trinity: Neo... nobody has ever done this before. Neo: That's why it's going to work."
+  - text: "Neo: I thought it wasn't real. Morpheus: Your mind makes it real."
+  - text: "The answer is out there, Neo, and it's looking for you, and it will find you if you want it to."
+  - text: "So what do you need? Besides a miracle."
+  - text: "I can only show you the door. You're the one that has to walk through it."
+  - text: "Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
+
+
+me-img: "/img/online.png"
+
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+#color-browser: "#000000"
+apple-status-bar-style: "green"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+post-preview-words: 96
+paginate: 25
+
+email-share: True
+fb-share: True
+google-plus-share: True
+twitter-share: True
+pinterest-share: True
+linkedin-share: True
+email-share: True
+reddit-share: False
+tumblr-share: False
+pocket-share: False
+vkontakte-share: False
+
+discus-identifier: cdrrazan # add your discus identifier
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+
+  - image: "/img/jetpacktocat.png"
+    date: "Sep 2017 - Dec 2017"
+    description: "Internship in Network/System in Mavorion System"
+  #- image: "/assets/img/ror.png"
+   # date: "July 2015 - Today"
+    #description: "Started Ruby on Rails."
+  - image: "/assets/img/csit.png"
+    date: "Dec 2013 - Jan 2018"
+    description: "BSc. CSIT from NIST College "
+  - image: "/img/timeline/default.png"
+    date: "Jun 2010 - May 2013"
+    description: "+2 Science from Banepa NIST HSS."
+  - image: "/img/jetpacktocat.png"
+    date: "April 2001 - June 2010"
+    description: "School from SIVM."
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "inbox@cdrrazan.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "Writes about Blogging, Tech and Student stuff! Link maybe rdir: http://cdrzn.link Like on Facebook: http://rajan.link/fb Follow on Twitter http://rajan.link/tw"
+author_blurb_image: "/assets/img/cdrrazan.jpg"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "https://facebook.com/cdrrazan"
+  - title: "twitter"
+    url: "https://twitter.com/cdrrazan"
+  - title: "google-plus"
+    url: "https://plus.google.com/+cdrrazan"
+  - title: "github"
+    url: "https://github.com/cdrrazan"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/cdrrazan"
+  - title: "pinterest"
+    url: "https://pinterest.com/cdrrazan"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+#keybase-username: johnsmith
+#keybase-in-social: True
+#keybase-in-footer: True
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  App: 'app'
+  Contact: 'contact'
+
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "/blog/page:num/"
+permalink: /blog/:categories/:short_year/:month/:title/
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-admin
+  - jekyll-youtube
+  - jekyll-algolia
+  - html-proofer
+
+
+highlighter: rouge
+
+algolia:
+  application_id: SEVC4S5KCH
+  index_name: cdrrazancom
+  search_only_api_key: cc1e5d31c020e8de3f43a4375d1fa407
+  indexing_mode: atomic
