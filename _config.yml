@@ -234,7 +234,6 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
-  App: 'app'
   Contact: 'contact'
 
 
