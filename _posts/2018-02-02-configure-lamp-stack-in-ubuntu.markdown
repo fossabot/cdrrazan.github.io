@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to configure LAMP stack in Ubuntu?
-date: 2018-01-26 13:32:20 +0545
+date: 2018-02-02 13:32:20 +0545
 category: linux
 tags: [ubuntu]
 ---
