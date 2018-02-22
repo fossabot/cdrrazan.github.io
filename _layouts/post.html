@@ -13,6 +13,7 @@
       <section id="post" class="container content-section text-center">
       <a href="#"><img style="border: 0;" src="/img/logo-cdrrazan.png" title="cdrrazan's blog" /></a>
       <hr>
+
       <div class="row">
 
         <div class="col-md-10 col-md-offset-1">
@@ -45,6 +46,7 @@
         {% else %} {% endif %}
           <section class="text-justify">
             {{ page.content | markdownify }}
+            <% include inpage-adsense-post.html %>
           </section>
           <br>
           <h3> Reaction: </h3>
