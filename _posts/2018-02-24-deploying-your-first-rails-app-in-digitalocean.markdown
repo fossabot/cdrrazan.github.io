@@ -57,6 +57,7 @@ Once the SSH keys are configured, clone your app to the VM, to check if our setu
 ``` $ git clone git@github.com:username/name-of-the-app.git```
 
 There is no need to keep this repo as we will use capistrano for our cloning and other purpose.
+<center>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Inarticle-Ad1 -->
 <ins class="adsbygoogle"
@@ -66,7 +67,7 @@ There is no need to keep this repo as we will use capistrano for our cloning and
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
+</center>
 ### Our real work now.
 
 After finishing all the stuff, its time to setup our app. We are going to use <a href="http://capistranorb.com/">capistrano.</a>.
