@@ -6,8 +6,6 @@ category: tech
 tags: [ruby-on-rails]
 ---
 
-This tutorial was <i>inspired by deploying your ruby on rails app using nginx, puma web server in DigitalOcean VM.</i>
-
 When i started making my first ruby on rails app, it worked great on local development environment. The idea was simple enough, the app would generate the CV for the user and also let them download it. So, i thought, why not deploy in production server?
 
 There are places where we can deploy your ruby on rails app for free such as heroku. I will be discussing the place where i deployed my first app: <b>"DigitalOcean." </b>
@@ -130,6 +128,7 @@ Restart out the nginx service and Boom we have our app ready. Go with your IP ad
 <img src="https://2.bp.blogspot.com/-7iniUL91nEk/WpFYsZXZueI/AAAAAAAAA8I/FRnd-MQpfvEuoJNjjgfivTR23G_l_ojLQCLcBGAs/s1600/itsover.jpg"/>
 Well thanks for reading the article and if you hit with any problems, please comment below. I will be happy to assist. :smiley face:
 
+<i>This tutorial was inspired by deploying your ruby on rails app using nginx, puma web server in DigitalOcean VM.</i>
 
 
 
