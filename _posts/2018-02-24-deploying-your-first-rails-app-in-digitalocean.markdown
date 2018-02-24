@@ -57,6 +57,15 @@ Once the SSH keys are configured, clone your app to the VM, to check if our setu
 ``` $ git clone git@github.com:username/name-of-the-app.git```
 
 There is no need to keep this repo as we will use capistrano for our cloning and other purpose.
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Inarticle-Ad1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8602912877689578"
+     data-ad-slot="7251126028"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Our real work now.
 

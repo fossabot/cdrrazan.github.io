@@ -10,7 +10,7 @@
 				<title>Deploying your first Rails App in DigitalOcean!</title>
 				
 				
-					<description>&lt;p&gt;This tutorial was &lt;i&gt;inspired by deploying your ruby on rails app using nginx, puma web server in DigitalOcean VM.&lt;/i&gt;&lt;/p&gt;
+					<description>&lt;p&gt;When i started making my first ruby on rails app, it worked great on local development environment. The idea was simple enough, the app would generate the CV for the user and also let them download it. So, i thought, why not deploy in production server?&lt;/p&gt;
 
 </description>
 				
