@@ -7,6 +7,19 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Deploying your first Rails App in DigitalOcean!</title>
+				
+				
+					<description>&lt;p&gt;This tutorial was &lt;i&gt;inspired by deploying your ruby on rails app using nginx, puma web server in DigitalOcean VM.&lt;/i&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 24 Feb 2018 13:32:20 +0545</pubDate>
+				<link>http://localhost:4000/blog/tech/18/02/deploying-your-first-rails-app-in-digitalocean/</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/tech/18/02/deploying-your-first-rails-app-in-digitalocean/</guid>
+			</item>
+		
+			<item>
 				<title>How to configure LAMP stack in Ubuntu?</title>
 				
 				
@@ -122,19 +135,6 @@ Every hacking beginner can have plenty of doubts like: &lt;code class=&quot;high
 				<pubDate>Tue, 15 Aug 2017 13:32:20 +0545</pubDate>
 				<link>http://localhost:4000/blog/blog/17/08/build-your-personal-brand-as-a-new-developer/</link>
 				<guid isPermaLink="true">http://localhost:4000/blog/blog/17/08/build-your-personal-brand-as-a-new-developer/</guid>
-			</item>
-		
-			<item>
-				<title>Setup custom email for your brand for free!</title>
-				
-				
-					<description>&lt;p&gt;Custom domain are easy now a days because domain names are so cheap, you can have a fancy name and fancy extension for example, yourbrandis.cool. But what about the fancy having something like mail@yourbrandis.cool? Sounds pretty cool right? Yes, this seems exactly. You can also have such email address which will look pretty good in the CV, resume or other place you use.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 03 Aug 2017 13:32:20 +0545</pubDate>
-				<link>http://localhost:4000/blog/blog/17/08/setup-custom-email-for-your-brand-for-free/</link>
-				<guid isPermaLink="true">http://localhost:4000/blog/blog/17/08/setup-custom-email-for-your-brand-for-free/</guid>
 			</item>
 		
 	</channel>

@@ -18,8 +18,8 @@
   <meta name="author" content="Rajan Bhattarai">
   <meta name="keywords" content="tech, linux, open-source, cdrrazan, jekyll">
   <meta property="fb:app_id" content="1550921831639796" />
-  <link rel="canonical" href="/blog/programming/18/01/programming-language-to-become-a-hacker/">
-  <title>{ cdrrazan } | Programming language to Become A Hacker!</title>
+  <link rel="canonical" href="/blog/tech/18/02/deploying-your-first-rails-app-in-digitalocean/">
+  <title>{ cdrrazan } | Deploying your first Rails App in DigitalOcean!</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -244,59 +244,187 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <!--<center><a href="//www.chitika.com/publishers/apply?refid=cdrrazan"><img src="//images.chitika.net/ref_banners/728x90_hidden_ad.png" /></a></center>-->
           <br>
 
-          <h1><strong>Programming language to Become A Hacker!</strong></h1>
+          <h1><strong>Deploying your first Rails App in DigitalOcean!</strong></h1>
           <h4>
-            <strong>17 January 2018</strong>
+            <strong>24 February 2018</strong>
             <small>
               . category:
-              <a class="category" href="/categories/programming">
-                programming
+              <a class="category" href="/categories/tech">
+                tech
               </a>.
-              <!--<a href="/blog/programming/18/01/programming-language-to-become-a-hacker/#disqus_thread">Comments</a>-->
+              <!--<a href="/blog/tech/18/02/deploying-your-first-rails-app-in-digitalocean/#disqus_thread">Comments</a>-->
               <br />
               
-                <!--<a class="tag" href="/tags/hacker/">-->
-                #hacker<!--</a>-->
+                <!--<a class="tag" href="/tags/ruby-on-rails/">-->
+                #ruby-on-rails<!--</a>-->
               
             </small>
           </h4>
           <div id="shareable" class="sharethis-inline-share-buttons"></div>
             <br>
-            
-        <div class="page-cover-image">
-            <img class="page-image" height="50%" width="600px" src=/assets/img/hacker.jpg alt="Programming language to Become A Hacker!">
-        </div>
-        <!-- End Page Cover Image -->
-        
+             
           <section class="text-justify">
-            <p><br />
-Every hacking beginner can have plenty of doubts like: <code class="highlighter-rouge">“Which programming language should I learn for Hacking ?”</code></p>
+            <p>This tutorial was <i>inspired by deploying your ruby on rails app using nginx, puma web server in DigitalOcean VM.</i></p>
 
-<p>Programming Languages For Hacking:</p>
+<p>When i started making my first ruby on rails app, it worked great on local development environment. The idea was simple enough, the app would generate the CV for the user and also let them download it. So, i thought, why not deploy in production server?</p>
 
-<h2 id="1-for-web-app--pentesting--hacking">1# For Web App / Pentesting / Hacking:</h2>
+<p>There are places where we can deploy your ruby on rails app for free such as heroku. I will be discussing the place where i deployed my first app: <b>“DigitalOcean.” </b></p>
 
-<p><strong><code class="highlighter-rouge">HTML:</code></strong> Hypertext Markup Language (HTML) is the basics for creating web pages and other information that can be displayed in a web browser. So if you don’t know HTML you should first learn it.</p>
+<h3 id="digitalocean">DigitalOcean</h3>
 
-<p><strong><code class="highlighter-rouge">JavaScript:</code></strong> Learning JavaScript. It will help you to understand the basics of Cross Site Scripting.</p>
+<p>DigitalOcean is one of the favorite and cheap place to deploy your rails app. You can either create a VM and either completely configure from scratch or you can create machine specially for the targeted purpose. For this purpose i didn’t go through scratch process because i am familiar with the setup process for nginx and puma server so i chose <b>“One-Click-Apps”</b>. One click apps process lets you setup instantly. The available apps are Ruby on Rails, Wordpress, Discourse, phpmyAdmin etc.</p>
 
-<p><strong><code class="highlighter-rouge">PHP/SQL:</code></strong> The majority of web applications are written using PHP and MySQL. So it is a must to learn PHP.</p>
+<h4 id="setup-process">Setup Process</h4>
 
-<h2 id="2-for-writingunderstanding-exploits-shell-codes-rootkits-etc">2# For Writing/Understanding Exploits, Shell Codes, Rootkits etc:</h2>
+<p><img src="https://3.bp.blogspot.com/-BIrO8HXfFxM/WpFKEewGuLI/AAAAAAAAA7o/PdzffCScMXQqVrPqMsSYKQPLJuTsL5aWQCLcBGAs/s1600/DO-create.png" /></p>
 
-<p><strong><code class="highlighter-rouge">C &amp; C++:</code></strong> More than 60 % of the exploits you will find on the web are written in C &amp; C ++. Learning C &amp; C++ will help you to understand about Buffer overflows, Stack overflow etc – so learning C and C ++ is a must for every Hacker/Pentester.</p>
+<blockquote>
+  <p><em>1. To configure your VM, click on Ruby on Rails on 16.04.</em></p>
+</blockquote>
 
-<p><strong><code class="highlighter-rouge">Assembly:</code></strong> Learning assembly will help you in Writing/understanding Shell code, it will also help you in Reverse Engineering applications and software’s.</p>
+<blockquote>
+  <p><em>2. The standard droplet, will be 1 GB. 1vCPU, 25GB SSD which cost $5/month which fits for our need.</em></p>
+</blockquote>
 
-<h2 id="3-for-building-tools-and-scripts">3# For Building Tools And Scripts:</h2>
+<blockquote>
+  <p><em>3. You can choose any datacenter nearest to your location.</em></p>
+</blockquote>
 
-<p><strong><code class="highlighter-rouge">Python:</code></strong> Python is a very powerful high-level language, it’s easy to learn and code, most of the tools and scripts for automation are written in Python. Knowing Python socket programming will help you a lot in Exploit writing.</p>
+<blockquote>
+  <p><em>4. Setup additional options and setup your SSH keys.</em></p>
+</blockquote>
 
-<p><strong><code class="highlighter-rouge">Ruby:</code></strong> Ruby is an another language which is used to write scripts, tools. Metasploit Framework is written in Ruby. Learning ruby will help you understand the in and outs of MSF.</p>
+<blockquote>
+  <p><em>5. Finally choose name for your droplet and click on create option.</em></p>
+</blockquote>
 
-<p><strong><code class="highlighter-rouge">Bash:</code></strong> Learning Bash is very useful in writing small scripts for automation.</p>
+<p>This will finally create the VM and provide you the IP address from which can access using SSH.
+<img src="https://1.bp.blogspot.com/-JIMJT3ZFWyw/WpFKV9XW0NI/AAAAAAAAA7s/-XqALm9CbdwjrPd4ESVFj0-Dxb1cWBnBQCLcBGAs/s1600/do-vm.png" /></p>
 
-<p>Source: <a href="https://codingsec.net/2016/06/programming-languages-hacking/"><strong>Codisec</strong></a></p>
+<p>Once the machine is created, we can access using SSH.</p>
+
+<blockquote>
+  <p><em>Goto terminal and type <code class="highlighter-rouge">ssh root@IP</code>.</em></p>
+</blockquote>
+
+<p>This takes us right to the machine and we can check the <strong>ruby</strong>, <strong>rails</strong> and other needed things.</p>
+
+<p>Please make sure you can configure and install the following.</p>
+
+<blockquote>
+  <p><em>1. GIT Configuration</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>2. SSH Configuration</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>3. Postgresql Configuration</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>4. Nginx</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>5. System Upgrade</em></p>
+</blockquote>
+
+<p>For this instance, i configured my SSH keys to github. You can configure this to bitbucket as well.</p>
+
+<p>Once the SSH keys are configured, clone your app to the VM, to check if our setup is working. You can do this by</p>
+
+<p><code class="highlighter-rouge">$ git clone git@github.com:username/name-of-the-app.git</code></p>
+
+<p>There is no need to keep this repo as we will use capistrano for our cloning and other purpose.</p>
+
+<h3 id="our-real-work-now">Our real work now.</h3>
+
+<p>After finishing all the stuff, its time to setup our app. We are going to use <a href="http://capistranorb.com/">capistrano.</a>.</p>
+
+<p>Add this to your <code class="highlighter-rouge">Gemfile</code>.</p>
+<div id="gist">
+<script src="https://gist.github.com/cdrrazan/0e99ee5a86df48a88ddb042a014aadb4.js"></script>
+</div>
+<p>Run <code class="highlighter-rouge">$ bundle install</code> to install gems now.</p>
+
+<p>This does</p>
+
+<blockquote>
+  <p><em>1. Creates Capfile in the project’s root path.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>2. <code class="highlighter-rouge">deploy.rb</code> in the config directory.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>3. deploy folder in the config directory.</em></p>
+</blockquote>
+
+<p>After the gem is installed, now it is time to configure capistrano. Run the following command to configure capistrano.</p>
+
+<p><code class="highlighter-rouge">$ cap install</code></p>
+
+<p>Replace the content of the newly generated capfile like this.</p>
+
+<div id="gist">
+  <script src="https://gist.github.com/cdrrazan/2c9411271cbc0ac7d7e5b62f4fdd18b3.js"></script>
+</div>
+
+<p>Now the main task is to configure the deploy.rb which does the automation part.
+Replace the <code class="highlighter-rouge">deploy.rb</code> with the following.</p>
+<div id="gist">
+  <script src="https://gist.github.com/cdrrazan/540f2236e938d96b569e0f0eeee7e994.js"></script>
+</div>
+
+<p>The main part to configure or replace are</p>
+
+<blockquote>
+  <p><em>1. Server IP – Provided by DigitalOcean</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>2. Port – 22</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>3. repo_url – your github/bitbucket url{depends on what you setup earlier for SSH}</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>4. application – app name</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>5. user – username in the VM</em></p>
+</blockquote>
+
+<p>Once all this finishes, it is time to setup our nginx. Create a file nginx.conf inside config directory and add the following code.</p>
+
+<div id="gist">
+  <script src="https://gist.github.com/cdrrazan/7427217b6f8ef97161010d2e4f7a202a.js"></script>
+</div>
+<p>Remember you need to change the username from deploy to your username and appname to whatever you wrote in the deploy.rb.</p>
+
+<p>Push all the changes in the git server and run the deployment as</p>
+
+<p><code class="highlighter-rouge">$ cap production deploy:inital</code></p>
+
+<p>This will take time depending upon your app and internet connection. Once the process finishes, connect your Puma web server to the Nginx reverse proxy.</p>
+
+<p><code class="highlighter-rouge">$ sudo rm /etc/nginx/sites-enabled/default</code>
+<br />
+ <code class="highlighter-rouge">$ sudo ln -nfs "/home/deploy/apps/appname/current/config/nginx.conf" "/etc/nginx/sites-enabled/appname"</code></p>
+
+<p>Again remember to replace the app name and username in above lines.</p>
+
+<p>Restart out the nginx service and Boom we have our app ready. Go with your IP address in the browser and TADA its done!!</p>
+
+<p><img src="https://2.bp.blogspot.com/-7iniUL91nEk/WpFYsZXZueI/AAAAAAAAA8I/FRnd-MQpfvEuoJNjjgfivTR23G_l_ojLQCLcBGAs/s1600/itsover.jpg" />
+Well thanks for reading the article and if you hit with any problems, please comment below. I will be happy to assist. :smiley face:</p>
+
 
           </section>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -343,19 +471,11 @@ Every hacking beginner can have plenty of doubts like: <code class="highlighter-
           <hr />
             <div class="PageNavigation">
                 
-                <a class="prev" href="/blog/blog/18/01/start-blogging-in-2018/"><h4>&laquo;
-                Prev: How to start blogging in 2018!</h4></a>  
-                <a class="next" href="/blog/tech/18/01/10-things-that-would-happen-if-the-internet-collapsed/"><h4>Next: 10 Things That Would Happen If The Internet Collapsed &raquo;</h4></a> 
+                <a class="prev" href="/blog/linux/18/02/configure-lamp-stack-in-ubuntu/"><h4>&laquo;
+                Prev: How to configure LAMP stack in Ubuntu?</h4></a>  
             </div>
                 <div class="related-posts">
                     <h2><u>Related Posts</u></h2> 
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                          <h5>
-                            February 24, 2018: <a href="/blog/tech/18/02/deploying-your-first-rails-app-in-digitalocean/">Deploying your first Rails App in DigitalOcean!</a></h5>
-                        </div>
-                    </div>
-                    
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12">
                           <h5>
@@ -367,6 +487,13 @@ Every hacking beginner can have plenty of doubts like: <code class="highlighter-
                         <div class="col-sm-12 col-md-12 col-lg-12">
                           <h5>
                             January 26, 2018: <a href="/blog/tech/18/01/10-things-that-would-happen-if-the-internet-collapsed/">10 Things That Would Happen If The Internet Collapsed</a></h5>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                          <h5>
+                            January 17, 2018: <a href="/blog/programming/18/01/programming-language-to-become-a-hacker/">Programming language to Become A Hacker!</a></h5>
                         </div>
                     </div>
                     
@@ -396,7 +523,7 @@ Every hacking beginner can have plenty of doubts like: <code class="highlighter-
 </div>
 </div>
 <div id="Facebook" class="tabcontent">
-    <div class="fb-comments" data-href="http://localhost:4000/blog/programming/18/01/programming-language-to-become-a-hacker/" data-width="auto" data-numposts="5"></div>
+    <div class="fb-comments" data-href="http://localhost:4000/blog/tech/18/02/deploying-your-first-rails-app-in-digitalocean/" data-width="auto" data-numposts="5"></div>
 </div>
 <div id="Disqus" class="tabcontent">
     <div class="comment-wrapper">
@@ -610,7 +737,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Programming language to Become A Hacker!', 'http://localhost:4000/blog/programming/18/01/programming-language-to-become-a-hacker/');
+    history.pushState({}, 'Deploying your first Rails App in DigitalOcean!', 'http://localhost:4000/blog/tech/18/02/deploying-your-first-rails-app-in-digitalocean/');
   }
 }
 </script>
