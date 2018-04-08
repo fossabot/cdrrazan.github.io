@@ -19,4 +19,4 @@ Well just for this purpose, i wrote the following script to make the task easier
 <div id="gist"><script src="https://gist.github.com/cdrrazan/30e7033c65514943014807129b034ab8.js"></script>
 </div>
 
-As i am ubuntu user, this is intended for all ubuntu user. I hope to extend for other distros in near future. You can use other unzipping services by replacing unzip to your favorite app. You can also find <a href="https://github.com/digitonme/wpstatic-deploy/blob/master/ruby/main.rb" target="_blank">ruby code </a> developed by <a href="https://neymarsabin.com" target="_blank">Neymarsabin</a>.
+As i am ubuntu user, this is intended for all ubuntu user. I hope to extend for other distros in near future. You can use other unzipping services by replacing unzip to your favorite app. You can also find <a href="https://github.com/cdrrazan/script-ly" target="_blank">more like this and other bash snippets and scripts.
